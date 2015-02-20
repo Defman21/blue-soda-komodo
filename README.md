@@ -7,3 +7,5 @@ Blue-Soda color scheme for Komodo 9.
 
 ##Screenshot
 ![Screen](screen.png)
+
+[Original author](https://bitbucket.org/DanielSiepmann/color-scheme-nice-blue-soda)

@@ -12,7 +12,7 @@ def _(val):
 
 def parseColors():
   colors = {}
-  colors['foreground'] = _("#C7C7C7")
+  colors['foreground'] = _("#ffffff")
   colors['background'] = _("#222222")
   colors['comment'] = _("#515151")
   colors['string'] = _("#c7c7c7")
@@ -24,14 +24,14 @@ def parseColors():
   colors['identifiers'] = _('#ffffff')
   colors['function'] = _('#ffffff')
   colors['control_characters'] = _("#3B3A32")
-  colors['attr_name'] = _("#6fc7f6")
+  colors['attr_name'] = _("#66d9ef")
   colors['attr_value'] = _("#66d9ef")
-  colors['tag'] = colors['attr_name']
+  colors['tag'] = _("#6fc7f6")
   colors['classes'] = _("#FFFFFF")
   colors['l_back'] = colors['background']
   colors['l_fore'] = colors['comment']
   colors['current_line'] = _("#333333")
-  colors['operators'] = _("#2F6F9F")
+  colors['operators'] = _("#ffffff")
   colors['error'] = _("#f8f8f0")
   colors['diff_add'] = _("#6fc7f6")
   colors['diff_delete'] = _("#314f5e")
@@ -54,10 +54,10 @@ def parseColors():
   colors['tag_bg'] =  colors['background']
   colors['classes_bg'] =  colors['background']
   colors['operators_bg'] =  colors['background']
-  colors['diff_add_bg'] =  _("#75715e")
-  colors['diff_delete_bg'] =  _("#75715e")
-  colors['diff_change_bg'] =  _("#75715e")
-  colors['error_bg'] = _("#AE81FF")
+  colors['diff_add_bg'] =  colors['background']
+  colors['diff_delete_bg'] =  colors['background']
+  colors['diff_change_bg'] =  colors['background']
+  colors['error_bg'] = _("#F92672")
   return colors
 
 def parseScheme(colors):
